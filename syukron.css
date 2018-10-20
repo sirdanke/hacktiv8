@@ -1,0 +1,142 @@
+
+body{
+            backgroud:#ffffff;
+}
+.header {
+         
+            min-height:50px;
+            border-radius:3px;       
+            background:#A6D1E0;       
+}
+.container {
+            overflow:hidden;
+            width:80%;
+            margin: auto;
+            display: :block;
+            
+}
+.header #logo {
+            float:left;
+            margin-top:auto;
+            margin-bottom: :auto;
+            margin-left:30px;
+            font-family: 'Fredoka One', cursive;
+}
+.header h1 {
+            margin: 10px 0 20px 0;
+}
+.header #aa {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 40px;
+         
+}
+.header nav{
+            float:right;
+            margin-top: 30px;
+            margin-right: 0px;
+            font-family: 'Baloo Bhaina', cursive;
+            font-size: 20px;
+    
+}
+header li{
+    padding:0 10px 0 10px;
+}
+.header a {
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+}
+.slider-holder
+        {
+            max-width: 1600px;
+            height: 400px;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+            clear:both;
+        }
+
+        .image-holder
+        {
+            width: 4800px;
+            height: 400px;
+            clear: both;
+            position: relative;
+            
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+        .banner
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            height: 400px;
+            max-width:1600px;
+        }
+        
+        #banner-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+        #banner-2:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+        
+        #banner-3:target ~ .image-holder
+        {
+            left: -3200px;
+        }
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+.row     {
+            margin 50 auto 50 auto;
+
+        }
+        .row .column {
+           
+            font-size: 15px;
+            text-align: center;
+            width:25%;
+            min-width:150px;
+            margin-top:10px;
+            float:left;
+         
+          
+          }
+        .row .column img {
+            vertical-align: middle;
+    
+          
+          
+          }
+
+    .footer{
+              clear:both;
+              margin:auto;
+              background:#A6D1E0;  
+          }
+           .footer #copy{
+               float:left;
+               margin:auto;
+           }
+        .footer #logo {
+            float:right;
+            margin-top:auto;
+            margin: auto;
+            font-family: 'Fredoka One', cursive;
+}
