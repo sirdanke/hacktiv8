@@ -1,0 +1,43 @@
+.container h3 {
+            text-align: center;
+}
+.row-promo2, .row-promo1 {
+            width:80%;
+            margin-top: 15px;
+            margin-bottom: auto;
+            margin-right: auto;
+            margin-left:auto;
+            position: relative;
+}
+.column-promo1 {
+            width:35%;
+            text-align: center;
+            display: inline-block;
+            float:left;
+            height: 320px;
+            border-radius: 5px;
+            background-color: skyblue;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 40px;
+            margin-right: auto;
+            position: :center;
+}
+.column-promo2{
+    width:35%;
+    text-align: center;
+    display: inline-block;
+    float:right;
+    height: 320px;
+    border-radius: 5px;
+    background-color: skyblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 40px;
+    position: :center;
+}          
+.column-promo1 img, .column-promo2 img {
+            width: 120px;
+            margin-top: 40px;
+}
