@@ -1,0 +1,41 @@
+.container-Contact {
+    width: 80%;
+  }
+  
+  .row2 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:100%
+    
+  }
+  
+  .row2 #column {
+    width: 50%;
+    float: left;
+  }
+  
+  .row2 #column2 {
+    float: right;
+    width: 50%;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 60%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  input[type="email"] {
+    width: 60%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
