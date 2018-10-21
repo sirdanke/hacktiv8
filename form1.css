@@ -9,10 +9,10 @@
   margin: auto;
   overflow: hidden;
   text-align: center;
-  background-color: rgb(151, 36, 36);
+  background-color: #ffffff;
   border-radius: 5px;
   padding: 20px;
-  color: white;
+  color: black;
 }
 
 
@@ -32,17 +32,17 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: rgb(151, 36, 36);
-  color: white;
+  background-color: skyblue;
+  color:black;
   padding: 12px 20px;
   margin-top: 10px;
-  border: 1px rgb(151, 36, 36) solid;
+  border: 1px skyblue solid;
   border-radius: 4px;
   cursor: pointer;
   float: right;
 }
 input:hover{
-    color: rgb(151, 36, 36);
+    color: skyblue;
     background-color: white;
 }
 button {

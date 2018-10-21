@@ -2,6 +2,9 @@
 body{
             backgroud:#ffffff;
 }
+p {
+            font-family: "Comic sans MS", cursive, sans-serif;
+}
 .header {
          
             min-height:50px;
@@ -38,6 +41,9 @@ body{
             font-size: 15px;
     
 }
+.header nav a:hover {
+    color: black;
+  }
 header li{
     padding:0 5px 0 5px;
 }
@@ -107,4 +113,7 @@ a {
             margin: auto;
             font-family: 'Fredoka One', cursive;
 }
+        #slide a:hover{
+            color: black;
+        }
 

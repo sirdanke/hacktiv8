@@ -36,8 +36,19 @@
     margin-left: auto;
     margin-right: 40px;
     position: :center;
+    
 }          
 .column-promo1 img, .column-promo2 img {
             width: 120px;
             margin-top: 40px;
+}
+.column-promo1 li, .column-promo2 li{
+            float:left;
+            text-transform: capitalize;
+            font-family: "comic sans MS", cursive ;
+            font-size: 15px;
+}
+h3{
+            font-family: "comic sans MS", cursive;
+            text-transform: capitalize;
 }
